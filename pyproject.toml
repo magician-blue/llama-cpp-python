@@ -3,13 +3,13 @@ requires = ["scikit-build-core[pyproject]>=0.5.0"]
 build-backend = "scikit_build_core.build"
 
 [project]
-name = "llama_cpp_python"
+name = "llama_cpp_python_kirp"
 dynamic = ["version"]
 description = "Python bindings for the llama.cpp library"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
-    { name = "Andrei Betlen", email = "abetlen@gmail.com" },
+    { name = "kirp", email = "kirp2199@gmail.com" },
 ]
 dependencies = [
     "typing-extensions>=4.5.0",
@@ -70,4 +70,3 @@ Changelog = "https://llama-cpp-python.readthedocs.io/en/latest/changelog/"
 
 [tool.pytest.ini_options]
 addopts = "--ignore=vendor"
-
